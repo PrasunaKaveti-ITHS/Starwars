@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star wars</title>
+    <link rel="stylesheet" href="starStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="starScript.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-text">STAR WARS CATALOG </div>
+        </header>
+        <main class="main-block">
+            <section class="flex-container">
+                <article class="characters-box-parent">
+                    <div class="characters-box-child1">
+                        <h5 class="item-title">Characters</h5>
+                    </div>
+                    <div class="characters-box-child2">
+
+                        <div id="myList">
+
+                        </div>
+                    </div>
+                    <div class="characters-box-child3">
+                        <div class="page-text">
+                            <button name="prev-btn" onclick="prevBtnOnClick();">⯇ </button>
+                            <p id="pageNumber"></p>
+                            <button name="next-btn" onclick="nextBtnOnClick();"> ⯈</button>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="details-box-parent">
+                    <div class="details-box-child1">
+                        <h5 class="item-title">Details</h5>
+                    </div>
+                    <div class="details-box-child2" id="detailsList">
+
+                    </div>
+                    <div class="details-box-child3" id="planetList">
+
+                    </div>
+
+                </article>
+
+            </section>
+
+        </main>
+    </div>
+</body>
+
+</html>
